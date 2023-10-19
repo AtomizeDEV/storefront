@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/models/product-variant';
+export { default } from '@atomizedev/storefront-engine/models/product-variant';

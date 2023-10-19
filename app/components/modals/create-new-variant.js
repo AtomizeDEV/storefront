@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/components/modals/create-new-variant';
+export { default } from '@atomizedev/storefront-engine/components/modals/create-new-variant';

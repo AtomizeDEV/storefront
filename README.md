@@ -67,7 +67,7 @@ composer require fleetbase/storefront-api
 Install the Ember.js Engine/Addon:
 
 ```bash
-pnpm install @fleetbase/storefront-engine
+pnpm install @atomizedev/storefront-engine
 ```
 
 ## Usage

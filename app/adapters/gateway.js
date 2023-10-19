@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/adapters/gateway';
+export { default } from '@atomizedev/storefront-engine/adapters/gateway';

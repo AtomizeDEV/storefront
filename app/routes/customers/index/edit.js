@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/routes/customers/index/edit';
+export { default } from '@atomizedev/storefront-engine/routes/customers/index/edit';

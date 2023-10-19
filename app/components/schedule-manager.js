@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/components/schedule-manager';
+export { default } from '@atomizedev/storefront-engine/components/schedule-manager';

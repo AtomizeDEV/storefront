@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/components/file-record';
+export { default } from '@atomizedev/storefront-engine/components/file-record';

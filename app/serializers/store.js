@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/serializers/store';
+export { default } from '@atomizedev/storefront-engine/serializers/store';

@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/components/order-card';
+export { default } from '@atomizedev/storefront-engine/components/order-card';

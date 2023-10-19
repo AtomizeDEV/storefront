@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/utils/get-notification-schemas';
+export { default } from '@atomizedev/storefront-engine/utils/get-notification-schemas';

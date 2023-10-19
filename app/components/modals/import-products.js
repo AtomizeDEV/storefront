@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/components/modals/import-products';
+export { default } from '@atomizedev/storefront-engine/components/modals/import-products';

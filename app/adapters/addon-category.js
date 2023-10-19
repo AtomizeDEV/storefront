@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/adapters/addon-category';
+export { default } from '@atomizedev/storefront-engine/adapters/addon-category';

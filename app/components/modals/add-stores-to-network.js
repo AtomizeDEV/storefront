@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/components/modals/add-stores-to-network';
+export { default } from '@atomizedev/storefront-engine/components/modals/add-stores-to-network';

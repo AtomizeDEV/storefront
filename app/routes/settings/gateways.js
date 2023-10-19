@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/routes/settings/gateways';
+export { default } from '@atomizedev/storefront-engine/routes/settings/gateways';

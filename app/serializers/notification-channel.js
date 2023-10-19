@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/serializers/notification-channel';
+export { default } from '@atomizedev/storefront-engine/serializers/notification-channel';

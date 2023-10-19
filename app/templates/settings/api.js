@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/templates/settings/api';
+export { default } from '@atomizedev/storefront-engine/templates/settings/api';

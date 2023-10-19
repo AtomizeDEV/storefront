@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/components/widget/storefront-metrics';
+export { default } from '@atomizedev/storefront-engine/components/widget/storefront-metrics';

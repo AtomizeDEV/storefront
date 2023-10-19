@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/components/modals/share-network';
+export { default } from '@atomizedev/storefront-engine/components/modals/share-network';

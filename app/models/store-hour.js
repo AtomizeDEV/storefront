@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/storefront-engine/models/store-hour';
+export { default } from '@atomizedev/storefront-engine/models/store-hour';
