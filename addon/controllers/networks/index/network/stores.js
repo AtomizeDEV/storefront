@@ -6,8 +6,8 @@ import { isBlank } from '@ember/utils';
 import { timeout } from 'ember-concurrency';
 import { task } from 'ember-concurrency-decorators';
 import createShareableLink from '../../../../utils/create-shareable-link';
-import isEmail from '@fleetbase/ember-core/utils/is-email';
-import isModel from '@fleetbase/ember-core/utils/is-model';
+import isEmail from '@atomizedev/ember-core/utils/is-email';
+import isModel from '@atomizedev/ember-core/utils/is-model';
 
 export default class NetworksIndexNetworkStoresController extends Controller {
     /**

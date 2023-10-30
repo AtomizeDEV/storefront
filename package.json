@@ -40,9 +40,9 @@
         "publish:github": "npm config set '@fleetbase:registry' https://npm.pkg.github.com/ && npm publish"
     },
     "dependencies": {
-        "@fleetbase/ember-core": "git@github.com/AtomizeDEV/ember-core.git", 
-        "@fleetbase/ember-ui": "git@github.com/AtomizeDEV/ember-ui.git", 
-        "@fleetbase/fleetops-data": "git@github.com/AtomizeDEV/fleetops-data.git", 
+        "@atomizedev/ember-core": "git@github.com/AtomizeDEV/ember-core.git", 
+        "@atomizedev/ember-ui": "git@github.com/AtomizeDEV/ember-ui.git", 
+        "@atomizedev/fleetops-data": "git@github.com/AtomizeDEV/fleetops-data.git", 
         "@fortawesome/ember-fontawesome": "^0.4.1",
         "@fortawesome/fontawesome-svg-core": "^6.4.0",
         "@fortawesome/free-solid-svg-icons": "^6.4.0",

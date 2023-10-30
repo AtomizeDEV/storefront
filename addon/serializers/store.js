@@ -1,4 +1,4 @@
-import ApplicationSerializer from '@fleetbase/ember-core/serializers/application';
+import ApplicationSerializer from '@atomizedev/ember-core/serializers/application';
 import { EmbeddedRecordsMixin } from '@ember-data/serializer/rest';
 
 export default class StoreSerializer extends ApplicationSerializer.extend(EmbeddedRecordsMixin) {

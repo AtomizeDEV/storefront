@@ -3,7 +3,7 @@ import { tracked } from '@glimmer/tracking';
 import { inject as service } from '@ember/service';
 import { alias } from '@ember/object/computed';
 import { action } from '@ember/object';
-import getPodMethods from '@fleetbase/ember-core/utils/get-pod-methods';
+import getPodMethods from '@atomizedev/ember-core/utils/get-pod-methods';
 
 /**
  * NetworksIndexNetworkIndexController
