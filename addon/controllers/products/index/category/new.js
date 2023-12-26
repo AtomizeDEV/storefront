@@ -1,4 +1,5 @@
-import Controller, { inject as controller } from '@ember/controller';
+import BaseController from '@atomizedev/storefront-engine/controllers/base-controller';
+import { inject as controller } from '@ember/controller';
 import { tracked } from '@glimmer/tracking';
 import { isArray } from '@ember/array';
 import { action } from '@ember/object';
@@ -6,7 +7,7 @@ import { alias } from '@ember/object/computed';
 import { underscore } from '@ember/string';
 import { inject as service } from '@ember/service';
 
-export default class ProductsIndexCategoryNewController extends Controller {
+export default class ProductsIndexCategoryNewController extends BaseController {
     @controller('products.index.category') productsIndexCategoryController;
     @service notifications;
     @service modalsManager;
@@ -47,7 +48,7 @@ export default class ProductsIndexCategoryNewController extends Controller {
 
     @action saveProduct() {
         const { category } = this.productsIndexCategoryController;
-        const loader = this.loader.showLoader('body', 'Creating new product...');
+        const loader = this.loader.showLoader('body', { loadingMessage: 'Creating new product...' });
         this.isSaving = true;
 
         if (category) {
@@ -89,6 +90,12 @@ export default class ProductsIndexCategoryNewController extends Controller {
     }
 
     @action queueFile(file) {
+        // since we have dropzone and upload button within dropzone validate the file state first
+        // as this method can be called twice from both functions
+        if (['queued', 'failed', 'timed_out', 'aborted'].indexOf(file.state) === -1) {
+            return;
+        }
+
         this.uploadQueue.pushObject(file);
         this.fetch.uploadFile.perform(
             file,
