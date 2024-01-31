@@ -117,7 +117,7 @@ storefront:
         description: Categorie beschrijving
         description-text: Geef je netwerk categorie een korte beschrijving
         category-icon: Categorie icoon type
- create-network:
+      create-network:
         title: Start een Netwerk
         message-line1: Winkelgevel stelt je in staat om snel marktplaatsen te creëren, waardoor meerdere winkelgevels kunnen verkopen onder één paraplu.
         message-line2: Wanneer je het netwerk creëert, definieer je jouw regels en kun je jouw netwerk uitbreiden via uitnodigingen.
@@ -190,7 +190,7 @@ storefront:
         untitled-addon-category: Naamloze Addon Categorie
       order-ready-assign-driver:
         driver-dispatch: Je staat op het punt deze bestelling klaar te zetten en te verzenden, gebruik de dropdown hieronder om een chauffeur te selecteren om naar toe te verzenden. <br><br>Of je kunt ervoor kiezen om de bestelling als adhoc te verzenden, wat de bestelling naar alle nabijgelegen chauffeurs zal pingen om te worden geaccepteerd.
-adhoc-dispatch-nearby-drivers: Adhoc verzenden naar nabijgelegen chauffeurs
+        adhoc-dispatch-nearby-drivers: Adhoc verzenden naar nabijgelegen chauffeurs
         select-driver: Selecteer Chauffeur
         select-driver-to-assign: Selecteer Chauffeur om toe te wijzen
       share-network:
