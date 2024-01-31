@@ -1,0 +1,575 @@
+storefront:
+  extension-name: Winkelgevel
+  common:
+    address: Adres
+    alerts: Alerts
+    amount: Bedrag
+    api: API
+    back: Terug
+    backdrop: Achtergrond
+    building: Gebouw
+    bulk-action: Bulkactie
+    cash: Contant
+    city: Stad
+    config: Configuratie
+    coordinates: Coördinaten
+    country: Land
+    created: Gemaakt
+    currency: Valuta
+    customer: Klant
+    customers: Klanten
+    category: Categorie
+    delivery-tip: Bezorgtip
+    delivery: Bezorging
+    description: Beschrijving
+    driver: Chauffeur
+    dropoff: Afleverpunt
+    earning: Verdiensten
+    email: E-mail
+    export: Exporteren
+    id: ID
+    import: Importeren
+    invalid: Ongeldig
+    loading: Laden...
+    logo: logo
+    name: Naam
+    neighborhood: Buurt
+    online: Online
+    orders: Bestellingen
+    phone: Telefoon
+    photos: Foto's
+    pickup: Ophalen
+    product: Producten
+    remove: Verwijderen
+    state: Staat
+    status: Status
+    store: Winkel
+    street-1: Straat 1
+    storefront: Winkelgevel
+    tag: Tags
+    tip: Tip
+    total: Totaal
+    type: Type
+    upload-new: Nieuwe upload
+    uploading: Uploaden...
+    view: Bekijken
+    website: Website
+    edit: Bewerken
+    delete: Verwijderen
+    network: Netwerken
+    file: bestanden
+    general: Algemeen
+    location: Locatie
+    notification: Notificatie
+    gateways: Gateways
+    settings: Instellingen
+    new: Nieuw
+    facebook: Facebook
+    instagram: Instagram
+    twitter: Twitter
+  sidebar:
+    storefront: Winkelgevel
+    dashboard: Dashboard
+    products: Producten
+    customers: Klanten
+    orders: Bestellingen
+    networks: Netwerken
+    settings: Instellingen
+    launch-app: App starten
+  component:
+    modals:
+      add-store-hours:
+        start-time: Begintijd
+        operation-start: Wanneer beschikbaarheid/operatie start
+        end-time: Eindtijd
+        operation-end: Wanneer beschikbaarheid/operatie uren eindigen
+      assign-driver:
+        message-driver: Selecteer een chauffeur om toe te wijzen aan deze bestelling.
+        name-driver: Selecteer Chauffeur
+        placeholder-driver: Selecteer Chauffeur om toe te wijzen
+      create-first-store:
+        title: Welkom bij Winkelgevel!
+        message: Winkelgevel stelt je in staat om snel een hoofdloze en dynamische on-demand winkel op te zetten, aangedreven door Fleetbase.
+        submit-message: Dien het onderstaande formulier in om je eerste winkel te creëren.
+        storefront-name: Winkelgevelnaam
+        enter-name: Voer de naam van je winkel in
+        description: Winkelgevel beschrijving
+        brief-description: Geef je winkel een eenvoudige korte beschrijving van de soorten dingen die verkocht worden
+        currency: Winkelgevel valuta
+        select-currency: Selecteer de standaardvaluta voor je winkelgevel
+      create-getaway:
+        getaway: Gateway type
+        getaway-text: Selecteer gateway type
+        getaway-name: Gatewaynaam
+        name-text: Geef je betalingsgateway een naam, dit is alleen intern relevant
+        getaway-code: Gatewaycode
+        code-text: Identificatiecode gebruikt om gateway te identificeren voor de SDK
+        callback-url: Terugbel URL
+        callback-text: Terugbel URL indien van toepassing
+        return-url: Retour URL
+        return-text: Retour URL indien van toepassing
+        sandbox-getaway: Dit is een sandbox gateway
+      create-network-category:
+        parent-category: Bovenliggende categorie
+        select-parent: Selecteer een bovenliggende categorie indien aanwezig
+        category-name: Categorienaam
+        name-text: Voer een naam in voor de categorie
+        description: Categorie beschrijving
+        description-text: Geef je netwerk categorie een korte beschrijving
+        category-icon: Categorie icoon type
+ create-network:
+        title: Start een Netwerk
+        message-line1: Winkelgevel stelt je in staat om snel marktplaatsen te creëren, waardoor meerdere winkelgevels kunnen verkopen onder één paraplu.
+        message-line2: Wanneer je het netwerk creëert, definieer je jouw regels en kun je jouw netwerk uitbreiden via uitnodigingen.
+        message-line3: Begin door hieronder een netwerk te creëren.
+        name: Netwerknaam
+        name-text: Voer de naam van je winkel in
+        description: Netwerk beschrijving
+        description-text: Geef je winkel een eenvoudige korte beschrijving van de soorten dingen die verkocht worden
+        currency: Netwerk valuta
+        currency-text: Selecteer de standaardvaluta voor je winkelgevel
+      create-new-variant:
+        name: Variantnaam
+        name-text: Geef je productvariant een naam
+        description: Variant beschrijving
+        description-text: Korte beschrijving van de variant
+        checkbox-1: Sta gebruiker toe om meerdere variantopties tegelijk te selecteren
+        checkbox-2: Deze productvariant selectie is verplicht
+      create-notification-channel:
+        title: Kanaal
+        title-text: Selecteer notificatiekanaal
+        name: Kanaalnaam
+        name-text: Geef je notificatiekanaal een naam, dit is alleen intern relevant
+        key: Kanaalsleutel
+        key-text: Dit is je notificatiekanaalsleutel, gebruik dit om te specificeren welke apps dit notificatiekanaal moeten gebruiken via sdk-configuraties.
+      create-product-category:
+        name: Categorienaam
+        name-text: Voer een naam in voor de categorie
+        description: Categorie beschrijving
+        description-text: Geef je productcategorie een korte beschrijving
+        icon: Categorie icoon
+        uploading-new: Nieuw categorie icoon uploaden
+      create-store:
+        name: Winkelgevelnaam
+        name-text: Voer de naam van je winkel in
+        description: Winkelgevel beschrijving
+        description-text: Geef je winkel een eenvoudige korte beschrijving van de soorten dingen die verkocht worden
+        currency: Winkelgevel valuta
+        currency-text: Selecteer de standaardvaluta voor je winkelgevel
+      import-products:
+        uploading-message: Import verwerken...
+        drop-upload: Sleep hier om te uploaden
+        ready-upload: klaar voor upload.
+        upload-spreadsheets: Spreadsheets uploaden
+        drag-drop: Sleep spreadsheetbestanden naar deze dropzone
+        select-spreadsheets: of selecteer spreadsheets om te uploaden.
+        upload-queue: Uploadwachtrij
+        optionally-select-category: Optioneel een categorie selecteren om producten in te importeren
+        select-category: Selecteer Categorie
+      incoming-order:
+        assigned: Chauffeur toegewezen
+        not-assigned: Geen chauffeur toegewezen
+        no-phone: Geen telefoon
+        change-driver: Chauffeur wijzigen
+        assign-driver: Chauffeur toewijzen
+        pickup-order: Klant moet bestelling ophalen bij
+        address: Klantadres
+        tracking: Volgen
+        summary: Bestellingsoverzicht
+        subtotal: Subtotaal
+        fee: Bezorgkosten
+        tip: Fooi
+        delivery-tip: Bezorgtip
+      manage-addons:
+        title: Nieuwe Categorie
+        delete: Categorie verwijderen
+        new-addon: Nieuwe Addon
+        addon-name: Addonnaam
+        description: Addon Beschrijving
+        delete-this-addon-category-assosiated-will-lost: Weet je zeker dat je deze addon categorie wilt verwijderen? Alle addons die ermee geassocieerd zijn, gaan verloren!
+        untitled-addon-category: Naamloze Addon Categorie
+      order-ready-assign-driver:
+        driver-dispatch: Je staat op het punt deze bestelling klaar te zetten en te verzenden, gebruik de dropdown hieronder om een chauffeur te selecteren om naar toe te verzenden. <br><br>Of je kunt ervoor kiezen om de bestelling als adhoc te verzenden, wat de bestelling naar alle nabijgelegen chauffeurs zal pingen om te worden geaccepteerd.
+adhoc-dispatch-nearby-drivers: Adhoc verzenden naar nabijgelegen chauffeurs
+        select-driver: Selecteer Chauffeur
+        select-driver-to-assign: Selecteer Chauffeur om toe te wijzen
+      share-network:
+        invite-member: Nodig leden uit voor je netwerk
+        email-below: Pak een deelbare uitnodigingslink of stuur individuele uitnodigingen via e-mail hieronder.
+        invite-network: Voer de e-mails in van personen of organisaties die je wilt uitnodigen voor je netwerk.
+        add-email: E-mails toevoegen
+        get-link: Link verkrijgen
+        enable-shareable-link: Deelbare link inschakelen
+        anyone-with-this-link-able-to-join-your-network: Iedereen met deze link kan deelnemen aan je netwerk
+      store-form:
+        storefront-name: Winkelgevelnaam
+        the-name-of-your-store: De naam van je winkel.
+        storefront-description-placeholder: Winkelgevelbeschrijving
+        give-your-store-brief-description: Geef je winkel een korte beschrijving om gebruikers te laten weten wat je verkoopt.
+        add-tags-placeholder: Tags toevoegen
+      store-location-form:
+        street-2: Straat 2
+        security-access-code: Beveiligingstoegangscode
+        postal-code: Postcode
+    widget:
+      customers:
+        widget-title: Recente Klanten
+        phone: Telefoon
+        email: E-mail
+      orders:
+        widget-title: Recente Bestellingen
+        id-column: Bestellings-ID
+        accept-order: Bestelling accepteren
+        mark-as-ready: Klaarzetten!
+        mark-as-completed: Voltooien
+        more-details: Meer details
+        customer: Klant
+        driver: Chauffeur
+        subtotal: Subtotaal
+        delivery-fee: Bezorgkosten
+        delivery-tip: Bezorgtip
+        tip: Fooi
+        change-driver: Chauffeur wijzigen
+        assign-driver: Chauffeur toewijzen
+        mark-as-ready-modal-pickup-title: Bestelling klaarzetten voor ophalen?
+        mark-as-ready-modal-pickup-body: De bestelling als klaar markeren zal de klant informeren dat hun bestelling klaar is voor ophalen!
+        mark-as-ready-modal-pickup-accept-button-text: Klaar voor Ophalen!
+        mark-as-ready-modal-not-adhoc-title: Chauffeur toewijzen en bestellingen verzenden
+        mark-as-ready-modal-not-adhoc-accept-button-text: Toewijzen & Verzenden!
+        mark-as-ready-modal-title: Weet je zeker dat je de bestelling als klaar wilt markeren?
+        mark-as-ready-modal-body: De bestelling als klaar markeren zal de bestelling naar nabijgelegen chauffeurs sturen, markeer de bestelling alleen als klaar wanneer deze kan worden opgehaald.
+        mark-as-ready-modal-accept-button-text: Verzenden!
+        mark-as-completed-modal-title : Weet je zeker dat je de bestelling als voltooid wilt markeren?
+        mark-as-completed-modal-body: De bestelling als voltooid markeren is een bevestiging dat de klant de bestelling heeft opgehaald en de bestelling is voltooid.
+        mark-as-completed-accept-button-text: Bestelling Voltooid!
+        assign-driver-modal-title: Chauffeur Toewijzen
+        assign-driver-modal-accept-button-text: Chauffeur Toewijzen
+      storefront-metrics:
+        last-day: Laatste 30 dagen
+    file-record:
+      delete-this-file: Weet je zeker dat je dit bestand wilt verwijderen?
+      delete-this-file-you-will-unable-recover: Zodra je dit bestand verwijdert, kun je het niet meer herstellen.
+    network-category-picker:
+      no-subcategory: Geen subcategorieën voor
+      no-categories: Geen categorieën voor dit netwerk
+      create-category: Creëer een nieuwe categorie
+    schedule-manager:
+      add-hours: Uren toevoegen
+      add-new-hours-for-day: Nieuwe uren toevoegen voor {day}
+      new-hours-added-for-day: Nieuwe uren toegevoegd voor {day}
+      you-wish-to-remove-these-hour: Weet je zeker dat je deze uren wilt verwijderen?
+      by-removing-these-operation: Door deze bedrijfsuren te verwijderen, kan je winkel of product inactief of niet beschikbaar worden volgens het bijgewerkte schema...
+    store-selector:
+      no-stores: Geen winkels om te selecteren
+      create-storefront: Creëer een nieuwe 
+  home:
+    title: Winkelgevel Dashboard
+  customers:
+    index:
+      internal-id: Interne ID
+      create-at: Gemaakt Op
+      update-at: Bijgewerkt Op
+      vendor-action: Verkoper Acties
+      view-customer-details: Bekijk Klantdetails
+      edit-customer: Klant Bewerken
+      success-message: Je nieuwe winkelgevelnetwerk is gemaakt!
+      delete-customer: Klant Verwijderen
+  networks:
+    index:
+      network-option: Netwerkopties
+      manage-network: Netwerk Beheren
+      send-invite: Uitnodigingen Versturen
+      delete-network: Netwerk Verwijderen
+      create-new-network: Creëer een nieuw netwerk
+      success-message: Je nieuwe winkelgevelnetwerk is gemaakt!
+      delete-this-network-all-assigned-stores-customer-order: Weet je zeker dat je dit netwerk ({networkName}) wilt verwijderen? Alle toegewezen winkels, klanten, bestellingen zullen niet meer bereikbaar zijn.
+      network:
+        manage-network: Netwerk Beheren
+        settings: Instellingen
+        customers: Klanten
+        orders: Bestellingen
+        Network-changes-not-save: Netwerkwijzigingen niet opgeslagen!
+        going-back-will-rollback-all-unsaved-changes: Teruggaan zal alle niet-opgeslagen wijzigingen terugdraaien, weet je zeker dat je wilt doorgaan?
+        index:
+          change-network-saved: Wijzigingen in netwerk opgeslagen.
+          create-new-payment-gateway: Creëer een nieuwe betalingsgateway
+          save-gateway: Gateway Opslaan
+          new-gateway-add-network: Nieuwe gateway toegevoegd aan netwerk
+          payment-gateway-changes-success: Wijzigingen in betalingsgateway opgeslagen!
+          create-new-notification-channel: Creëer een nieuw notificatiekanaal
+          create-notification-channel: Creëer Notificatiekanaal
+          notification-channel-add-network: Nieuw notificatiekanaal toegevoegd aan netwerk!
+          notification-channel-changes-save: Wijzigingen in notificatiekanaal opgeslagen!
+          general-network-settings-title: Algemene Netwerkinstellingen
+          general-network-settings-subtitle: Geef de algemene instellingen voor je netwerk of marktplaats.
+          general-network-settings-form:
+            save-changes-button-text: Wijzigingen Opslaan
+            name: Naam
+            name-placeholder: Winkelgevelnaam
+            name-help-text: De naam van je netwerk of marktplaats.
+            description: Beschrijving
+            description-placeholder: Winkelgevelbeschrijving
+            description-help-text: Geef je winkel een korte beschrijving om gebruikers te laten weten waar je netwerk over gaat.
+            currency: Valuta
+            contact-social-panel:
+              panel-title: Contact & Sociaal
+              phone: Telefoon
+              email: E-mail
+              email-help-text: Je zakelijke e-mail.
+              website: Website
+              website-help-text: De URL van je zakelijke website.
+              facebook: Facebook
+              facebook-help-text: Je zakelijke Facebook-pagina-ID.
+              instagram: Instagram
+              instagram-help-text: Je zakelijke Instagram-gebruikersnaam.
+              twitter: Twitter
+              twitter-help-text: Je zakelijke Twitter-gebruikersnaam.
+            logo-backdrop-panel:
+              panel-title: Logo & Achtergrond
+              logo-label: Logo
+              logo-help-text: Logo voor je winkel.
+              upload-logo-button-text: Nieuw logo uploaden
+              backdrop-label: Achtergrond
+              backdrop-help-text: Optionele banner of achtergrondafbeelding voor je winkel.
+              upload-backdrop-button-text: Nieuwe achtergrond uploaden
+            alert-panel:
+              panel-title: Alerts
+              panel-description: Configureer wie gewaarschuwd moet worden voor bepaalde gebeurtenissen
+              new-order-alert-label: Nieuwe bestellingswaarschuwing
+              new-order-alert-placeholder: Selecteer gebruikers om te waarschuwen voor nieuwe bestelling
+            config-switches:
+              online: Online
+              enable-tax: Belasting inschakelen
+              tax-percentage-input-label: Belastingpercentage
+              tax-percentage-input-help-text: Het BTW-percentage dat op bestellingen wordt toegepast.
+              auto-accept-incoming-orders: Automatisch inkomende bestellingen accepteren
+              auto-dispatch-orders: Bestellingen automatisch verzenden
+              require-proof-of-delivery: Bewijs van levering vereisen
+              proof-of-delivery-method-label: Methode voor bewijs van levering
+              enable-cash-on-delivery: Contant betalen bij levering inschakelen
+              enable-order-pickup: Bestellingen ophalen inschakelen
+              enable-tips: Fooien inschakelen
+              enable-delivery-tips: Bezorgtips inschakelen
+              enable-multi-cart-checkout: Meerdere winkelwagen afrekenen inschakelen
+              enable-user-reviews: Gebruikersbeoordelingen inschakelen
+          api-panel:
+            panel-title: API
+            panel-header: API-instellingen
+            panel-description: Toegangssleutel voor Storefront API & Integraties
+            network-key-label: Netwerksleutel
+            network-key-help-text: Dit is je netwerksleutel, gebruik dit om apps en integraties voor je netwerk in te schakelen.
+          payment-gateways-panel:
+            panel-title: Gateway-instellingen
+            panel-description: Voeg je betalingsgateway-instellingen hier toe of beheer ze.
+            new-gateway-button-text: Nieuwe gateway creëren
+            gateway-form:
+              name: Gatewaynaam
+              name-help-text: Geef je betalingsgateway een naam, dit is alleen intern relevant
+              code: Gatewaycode
+              code-help-text: Identificatiecode gebruikt om gateway te identificeren voor de SDK
+              callback-url: Terugbel URL
+              callback-url-help-text: Terugbel URL indien van toepassing
+              return-url: Retour URL
+              return-url-help-text: Retour URL indien van toepassing
+              sandbox-toggle-label: Dit is een sandbox gateway
+              config-header-label: Configuratie
+              delete-gateway-button-text: Betaalgateway verwijderen
+          notification-channels-panel:
+            panel-title: Notificatiekanalen
+            panel-header: Notificatie-instellingen
+            panel-description: Configureer notificatiekanalen voor je winkelgevel, elk notificatiekanaal kan ook zijn eigen regels en opties hebben.
+            new-channel-button-text: Nieuw kanaal creëren
+        stores:
+          store: Winkels
+          add-stores-button-text: Winkels toevoegen
+          invite-stores-button-text: Winkels uitnodigen
+          created-at: Gemaakt Op
+          view-store-details: Winkelgegevens bekijken
+          edit-store: Winkel bewerken
+          assign-category: Categorie toewijzen
+          remove-store-from-network: Winkel uit netwerk verwijderen
+          delete-network-category: Netwerkcategorie verwijderen?
+          deleting-category-move-all-stores-inside-on-top-level: Door deze categorie te verwijderen, worden alle winkels binnenin verplaatst naar het hoogste niveau, weet je zeker dat je deze categorie wilt verwijderen?
+          add-store-to-category: Winkel toevoegen aan categorie
+          save-change: Wijzigingen opslaan
+          add-new-network-category: Nieuwe netwerkcategorie toevoegen
+          create-new-category: Nieuwe categorie creëren
+          new-category-created: Nieuwe categorie gecreëerd.
+          network-category-create: Nieuwe netwerkcategorie gecreëerd.
+          edit-category: Categorie bewerken ({categoryName})
+          add-stores-to-network: Winkels toevoegen aan netwerk
+          network-stores-update: Netwerkwinkels bijgewerkt.
+          remove-this-store: Deze winkel ({storeName}) uit dit netwerk ({networkName}) verwijderen?
+          done: Klaar
+          longer-findable-by-this-network: Weet je zeker dat je deze winkel uit dit netwerk wilt verwijderen? Het zal niet langer vindbaar zijn door dit netwerk.
+          viewing-storefront: {storeName} winkelgevel bekijken
+          editing-storefront: {storeName} winkelgevel bewerken
+          send-invitations: Uitnodigingen versturen
+          invitation-sent-recipients: Uitnodigingen verzonden naar ontvangers!
+          invalid-emails-provided-error: Ongeldige e-mails verstrekt!
+  orders:
+    index:
+     internal-id: Interne ID
+     customer: Klant
+     select-order-customer: Selecteer bestellingsklant
+     select-order-pickup-location: Selecteer bestellingsophaallocatie
+     select-order-dropoff-location: Selecteer bestellingsafleverlocatie
+     scheduled-at: Gepland op
+     transaction-total: Transactietotaal
+     tracking-number: Volgnummer
+     driver-assigned: Chauffeur toegewezen
+     select-driver-for-order: Selecteer chauffeur voor bestelling
+     created-at: Gemaakt op
+     updated-at: Bijgewerkt op
+     created-by: Gemaakt door
+     updated-by: Bijgewerkt door
+     select-user: Gebruiker selecteren
+     view-order: Bestelling bekijken
+     cancel-order: Bestelling annuleren
+     delete-order: Bestelling verwijderen
+  products:
+    index:
+      manage-addons: Addons beheren
+      done: Klaar
+      create-new-product-category: Creëer een nieuwe productcategorie
+      product-category-created-success: Nieuwe productcategorie gecreëerd.
+      import-products-via-spreadsheets: Producten importeren via spreadsheets
+      start-upload: Upload starten
+      warning-no-file-upload: Geen bestanden in uploadwachtrij!
+      products-success-message: Succesvol {resultsLength} producten geïmporteerd...
+      delete-product: Weet je zeker dat je dit product wilt verwijderen?
+      body-warning: Waarschuwing! Zodra dit product is verwijderd, is het niet meer toegankelijk.
+      aside-scroller:
+        title: Productcategorieën
+        custom-top-item-text: Alle Producten
+      import-products-success-message: Succesvol {resultsLength} producten geïmporteerd...
+      edit:
+        title: Product is niet opgeslagen!
+        body: Je verliest alle niet-opgeslagen wijzigingen, weet je zeker dat je wilt annuleren?
+        changes-saved: Wijzigingen opgeslagen!
+      new:
+        new-product-created-success: Nieuw product succesvol gecreëerd!
+        warning-only-select-an-image-file-to-be-primary: Je kunt alleen een afbeeldingsbestand selecteren om primair te zijn!
+        made-the-primary-success-image: >-
+          {fileName} is gemaakt als de primaire afbeelding.
+        title: Product is niet opgeslagen!
+        body: Teruggaan zal de creatie van dit product annuleren, als je doorgaat worden alle invoervelden gewist!
+        select-addon-categories: Selecteer addon categorieën
+        add-new-product-variant: Voeg nieuwe productvariant toe
+        edit-product-variant: Productvariant bewerken
+        untitled-field: Naamloos Veld
+      category:
+        category: categorie
+        title: Product is niet opgeslagen!
+        body: Waarschuwing! Het verwijderen van deze categorie zal ook alle producten die onder deze categorie vallen verwijderen.
+        edit-category: Categorie bewerken
+        save-changes: Wijzigingen opslaan
+        category-changes-saved-success: Categorie wijzigingen opgeslagen.
+        delete-product: Weet je zeker dat je dit product wilt verwijderen?
+        body-warning: Waarschuwing! Zodra dit product is verwijderd, is het niet meer toegankelijk.
+  settings:
+    api:
+      api-settings: API-instellingen
+      access-key-for-storefront-api-integrations: Toegangssleutel voor Storefront API & Integraties.
+      store-key: Winkelgevelsleutel
+      store-key-help-text: Dit is je winkelgevelsleutel, gebruik dit om apps en integraties voor je winkelgevel in te schakelen.
+    gateways:
+      geteway-settings: Gateway-instellingen
+      add-or-manage-your-paymeny-gateway-settings-here: Voeg je betalingsgateway-instellingen hier toe of beheer ze.
+      create-new-gateway: Creëer nieuwe gateway
+      gateway-name: Gatewaynaam
+      gateway-help-text: Geef je betalingsgateway een naam, dit is alleen intern relevant
+      gateway-code: Gatewaycode
+      gateway-code-help-text: Identificatiecode gebruikt om gateway te identificeren voor de SDK
+      callback-url: Terugbel URL
+      callback-url-help-text: Terugbel URL indien van toepassing
+      return-url: Retour URL
+      return-url-help-text: Retour URL indien van toepassing
+      this-is-a-sandbox-gateway: Dit is een sandbox gateway
+      delete-payment-gateway: Betaalgateway verwijderen
+      create-new-payment-gateway: Creëer een nieuwe betalingsgateway
+ save-gateway: Gateway Opslaan
+      edit-payment-gateway: Betaalgateway bewerken
+      save-changes: Wijzigingen opslaan
+      title-remove: Weet je zeker dat je deze gateway wilt verwijderen?
+      application-website-utilizing-gateway: Alle applicaties en websites die deze gateway gebruiken in de configuratie kunnen verstoord worden als de gateway niet van tevoren wordt vervangen
+    index:
+      general-settings-header: Algemene instellingen
+      general-settings-message: Geef de algemene instellingen voor je winkelgevel.
+      name-placeholder: Winkelgevelnaam
+      name-help-text: De naam van je winkel.
+      description-placeholder: Winkelgevelbeschrijving
+      description-help-text: Geef je winkel een korte beschrijving om gebruikers te laten weten wat je verkoopt.
+      tags-placeholder: Tags toevoegen
+      contact-social: Contact & Sociaal
+      website-help-text: De URL van je zakelijke website.
+      facebook-placeholder: Facebook ID
+      facebook-help-text: Je zakelijke Facebook-pagina-ID.
+      instagram-placeholder: Instagramgebruikersnaam
+      instagram-help-text: Je zakelijke Instagram-gebruikersnaam.
+      twitter-placeholder: Twittergebruikersnaam
+      twitter-help-text: Je zakelijke Twitter-gebruikersnaam.
+      logo-backdrop: Logo & Achtergrond
+      logo-help-text: Logo voor je winkel.
+      upload-new-logo: Nieuw logo uploaden
+      backdrop-help-text: Optionele banner of achtergrondafbeelding voor je winkel.
+      upload-new-backdrop: Nieuwe achtergrond uploaden
+      images-videos: Afbeeldingen & Video's
+      drop-to-upload: Sleep hier om te uploaden
+      ready-to-upload: klaar voor upload.
+      upload-image-video: Afbeeldingen & Video's uploaden
+      drag-and-drop-image: Sleep afbeeldings- en videobestanden naar deze dropzone
+      upload-queue: Uploadwachtrij
+      alerted-for-certain-event: Configureer wie gewaarschuwd moet worden voor bepaalde gebeurtenissen.
+      new-order-alert: Nieuwe bestellingswaarschuwing
+      alert-placeholder: Selecteer gebruikers om te waarschuwen voor nieuwe bestelling
+      enable-tax: Belasting inschakelen
+      tax-percentage: Belastingpercentage
+      tax-percentage-help-text: Het BTW-percentage dat op bestellingen wordt toegepast.
+      auto-accept-incoming-order: Automatisch inkomende bestellingen accepteren
+      auto-dispatch-order: Bestellingen automatisch verzenden
+      require-proof-of-delivery: Bewijs van levering vereisen
+      proof-of-delivery-method: Methode voor bewijs van levering
+      enable-cash-on-delivery: Contant betalen bij levering inschakelen
+      enable-order-pickup: Bestellingen ophalen inschakelen
+      enable-tip: Fooien inschakelen
+      enable-integrated-vendors: Geïntegreerde verkopers inschakelen
+      save-changes: Wijzigingen opslaan
+    locations:
+      new-store-location: Nieuwe winkellocatie
+      add-new-location: Nieuwe locatie toevoegen
+      edit-store-location: Winkellocatie bewerken
+      save-changes: Wijzigingen opslaan
+      remove-this-store-location: Weet je zeker dat je deze winkellocatie wilt verwijderen?
+      solely-accosciated-location: Alle producten die alleen met deze locatie geassocieerd zijn, zullen niet meer toegankelijk zijn.
+      new-store-hour: Nieuwe winkeluren voor {day} toevoegen
+      add-hours: Uren toevoegen
+      store-hour-added: Nieuwe winkeluren toegevoegd voor {day}
+      remove-these-hour: Weet je zeker dat je deze uren wilt verwijderen?
+      update-schedule-location: Door deze bedrijfsuren te verwijderen, kan je winkel inactief worden volgens het bijgewerkte schema voor deze locatie..
+      location-setting: Locatie-instellingen
+      manage-store: Beheer de bedrijfslocaties en uren van je winkel
+      text-location: Nieuwe locatie creëren
+      store-hour: Winkeluren beheren
+    notification:
+      create-new-notification-channel: Creëer een nieuw notificatiekanaal
+      create-notification-channel: Notificatiekanaal creëren
+      edit-notification-channel: Notificatiekanaal bewerken
+      save-changes: Wijzigingen opslaan
+      new-notification-channel-added: Nieuw notificatiekanaal toegevoegd
+      remove-this-notification-channel: Weet je zeker dat je dit notificatiekanaal wilt verwijderen?
+      application-websites-utillizing-channel: Alle applicaties en websites die dit kanaal gebruiken in de configuratie kunnen verstoord worden als het kanaal niet van tevoren wordt vervangen
+      notification-settings: Notificatie-instellingen
+      notification-storefront: Configureer notificatiekanalen voor je winkelgevel, elk notificatiekanaal kan ook zijn eigen regels en opties hebben.
+      new-channel: Nieuw kanaal
+  service:
+    storefront:
+      new-incoming-order: Je hebt een nieuwe inkomende bestelling!
+      accept-order: Bestelling accepteren
+      decline-order: Bestelling weigeren
+      create-first-storefront: Creëer je eerste Winkelgevel
+      storefront-has-been-create-success: Je nieuwe winkelgevel is gecreëerd!
+      create-new-storefront: Creëer een nieuwe Winkelgevel
+      storefront-create-success: Je nieuwe winkelgevel is gecreëerd!
+  application:
+    launch-app: App starten

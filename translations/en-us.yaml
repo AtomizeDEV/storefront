@@ -89,7 +89,7 @@ storefront:
         placeholder-driver: Select Driver to Assign
       create-first-store:
         title: Welcome to Storefront!
-        message: Storefront allows you to quickly setup a headless and dynamic on-demand shop powered by Fleetbase.
+        message: Storefront allows you to quickly setup a headless and dynamic on-demand shop powered by Fastlane.
         submit-message: Submit the form below to create your first store.
         storefront-name: Storefront name
         enter-name: Enter the name of your store

@@ -1,0 +1,575 @@
+storefront:
+  extension-name: Storefront
+  common:
+    address: Adres
+    alerts: Alerty
+    amount: Kwota
+    api: API
+    back: Wstecz
+    backdrop: tło
+    building: Budynek
+    bulk-action: Masowa akcja
+    cash: Gotówka
+    city: Miasto
+    config: Konfiguracja
+    coordinates: Współrzędne
+    country: Kraj
+    created: Utworzono
+    currency: Waluta
+    customer: Klient
+    customers: Klienci
+    category: Kategoria
+    delivery-tip: Napiwek za dostawę
+    delivery: Dostawa
+    description: Opis
+    driver: Kierowca
+    dropoff: Miejsce dostawy
+    earning: Zarobki
+    email: Email
+    export: Eksport
+    id: ID
+    import: Import
+    invalid: Nieprawidłowy
+    loading: Wczytywanie...
+    logo: logo
+    name: Nazwa
+    neighborhood: Sąsiedztwo
+    online: Online
+    orders: Zamówienia
+    phone: Telefon
+    photos: Zdjęcia
+    pickup: Odbiór
+    product: Produkty
+    remove: Usuń
+    state: Stan
+    status: Status
+    store: Sklep
+    street-1: Ulica 1
+    storefront: Witryna sklepu
+    tag: Tagi
+    tip: Napiwek
+    total: Łącznie
+    type: Typ
+    upload-new: Wgraj nowe
+    uploading: Wgrywanie...
+    view: Zobacz
+    website: Strona internetowa
+    edit: Edytuj
+    delete: Usuń
+    network: Sieci
+    file: pliki
+    general: Ogólne
+    location: Lokalizacja
+    notification: Powiadomienie
+    gateways: Bramki
+    settings: Ustawienia
+    new: Nowy
+    facebook: Facebook
+    instagram: Instagram
+    twitter: Twitter
+  sidebar:
+    storefront: Witryna sklepu
+    dashboard: Panel
+    products: Produkty
+    customers: Klienci
+    orders: Zamówienia
+    networks: Sieci
+    settings: Ustawienia
+    launch-app: Uruchom aplikację
+  component:
+    modals:
+      add-store-hours:
+        start-time: Godzina rozpoczęcia
+        operation-start: Początek działania/operacji
+        end-time: Godzina zakończenia
+        operation-end: Koniec godzin działania/operacji
+      assign-driver:
+        message-driver: Wybierz kierowcę do przypisania do tego zamówienia.
+        name-driver: Wybierz kierowcę
+        placeholder-driver: Wybierz kierowcę do przypisania
+      create-first-store:
+        title: Witamy w Storefront!
+        message: Storefront pozwala szybko skonfigurować dynamiczny sklep na żądanie, zasilany przez Fastlane.
+        submit-message: Wyślij poniższy formularz, aby utworzyć swój pierwszy sklep.
+        storefront-name: Nazwa witryny sklepu
+        enter-name: Wprowadź nazwę swojego sklepu
+        description: Opis witryny sklepu
+        brief-description: Opisz krótko swój sklep i rodzaje sprzedawanych rzeczy
+        currency: Waluta witryny sklepu
+        select-currency: Wybierz domyślną walutę dla swojej witryny sklepu
+      create-getaway:
+        getaway: Typ bramki
+        getaway-text: Wybierz typ bramki
+        getaway-name: Nazwa bramki
+        name-text: Nadaj nazwę bramce płatności, będzie to istotne tylko wewnętrznie
+        getaway-code: Kod bramki
+        code-text: Kod identyfikatora używany do identyfikacji bramki w SDK
+        callback-url: URL zwrotny
+        callback-text: URL zwrotny, jeśli dotyczy
+        return-url: URL powrotu
+        return-text: URL powrotu, jeśli dotyczy
+        sandbox-getaway: To jest bramkatestowa
+      create-network-category:
+        parent-category: Kategoria nadrzędna
+        select-parent: Wybierz kategorię nadrzędną, jeśli istnieje
+        category-name: Nazwa kategorii
+        name-text: Wprowadź nazwę kategorii
+        description: Opis kategorii
+        description-text: Krótki opis kategorii sieci
+        category-icon: Ikona kategorii
+      create-network:
+        title: Rozpocznij sieć
+        message-line1: Storefront pozwala szybko tworzyć rynki, umożliwiając wielu witrynom sklepu sprzedaż pod wspólnym szyldem.
+        message-line2: Tworząc sieć, definiujesz swoje zasady i możesz rozbudowywać swoją sieć za pomocą zaproszeń.
+        message-line3: Zacznij od utworzenia sieci poniżej.
+        name: Nazwa sieci
+        name-text: Wprowadź nazwę swojego sklepu
+        description: Opis sieci
+        description-text: Opisz krótko swój sklep i rodzaje sprzedawanych rzeczy
+        currency: Waluta sieci
+        currency-text: Wybierz domyślną walutę dla swojej witryny sklepu
+      create-new-variant:
+        name: Nazwa wariantu
+        name-text: Nadaj nazwę swojemu wariantowi produktu
+        description: Opis wariantu
+        description-text: Krótki opis wariantu
+        checkbox-1: Pozwól użytkownikowi wybrać jednocześnie wiele opcji wariantu
+        checkbox-2: Wybór tego wariantu produktu jest wymagany
+      create-notification-channel:
+        title: Kanał
+        title-text: Wybierz kanał powiadomień
+        name: Nazwa kanału
+        name-text: Nadaj nazwę kanałowi powiadomień, będzie to istotne tylko wewnętrznie
+        key: Klucz kanału
+        key-text: To jest klucz kanału powiadomień, użyj go do określenia, które aplikacje powinny korzystać z tego kanału powiadomień za pośrednictwem konfiguracji SDK.
+      create-product-category:
+        name: Nazwa kategorii
+        name-text: Wprowadź nazwę kategorii
+        description: Opis kategorii
+        description-text: Krótki opis kategorii produktu
+        icon: Ikona kategorii
+        uploading-new: Wgraj nową ikonę kategorii
+      create-store:
+        name: Nazwa witryny sklepu
+        name-text: Wprowadź nazwę swojego sklepu
+        description: Opis witryny sklepu
+        description-text: Opisz krótko swój sklep i rodzaje sprzedawanych rzeczy
+        currency: Waluta witryny sklepu
+        currency-text: Wybierz domyślną walutę dla swojej witryny sklepu
+      import-products:
+        uploading-message: Przetwarzanie importu...
+        drop-upload: Upuść, aby przesłać
+        ready-upload: gotowe do przesyłania.
+        upload-spreadsheets: Wgraj arkusze kalkulacyjne
+        drag-drop: Przeciągnij i upuść pliki arkuszy kalkulacyjnych na tę strefę upuszczania
+        select-spreadsheets: lub wybierz arkusze kalkulacyjne do przesłania.
+        upload-queue: Kolejka przesyłania
+        optionally-select-category: Opcjonalnie wybierz kategorię, do której mają zostać zaimportowane produkty
+        select-category: Wybierz kategorię
+      incoming-order:
+        assigned: Kierowca przypisany
+        not-assigned: Brak przypisanego kierowcy
+        no-phone: Brak telefonu
+        change-driver: Zmień kierowcę
+        assign-driver: Przypisz kierowcę
+        pickup-order: Klient musi odebrać zamówienie z
+        address: Adres klienta
+        tracking: Śledzenie
+        summary: Podsumowanie zamówienia
+        subtotal: Suma częściowa
+        fee: Opłata za dostawę
+        tip: Napiwek
+        delivery-tip: Napiwek za dostawę
+      manage-addons:
+        title: Nowa Kategoria
+        delete: Usuń kategorię
+        new-addon: Nowy dodatek
+        addon-name: Nazwa dodatku
+        description: Opis dodatku
+        delete-this-addon-category-assosiated-will-lost: Czy na pewno chcesz usunąć tę kategorię dodatków? Wszystkie dodatki skojarzone zostaną utracone!
+        untitled-addon-category: Kategoria dodatków bez tytułu
+      order-ready-assign-driver:
+        driver-dispatch: Masz zamiar ustawić to zamówienie jako gotowe i wysłać, użyj rozwijanego menu poniżej, aby wybrać kierowcę do wysłania. <br><br>Lub opcjonalnie możesz zdecydować się na wysłanie zamówienia jako ad-hoc, co spowoduje, że zostanie ono wysłane do wszystkich pobliskich kierowców do zaakceptowania.
+        adhoc-dispatch-nearby-drivers: Ad-hoc wysyłka do pobliskich kierowców
+        select-driver: Wybierz kierowcę
+        select-driver-to-assign: Wybierz kierowcę do przypisania
+      share-network:
+        invite-member: Zapraszaj członków do swojej sieci
+        email-below: Uzyskaj udostępnialny link zaproszenia lub wyślij indywidualne zaproszenia przez e-mail poniżej.
+        invite-network: Wprowadź adresy e-mail osób lub organizacji, którym chcesz wysłać zaproszenie do swojej sieci.
+        add-email: Dodaj adresy e-mail
+        get-link: Pobierz link
+        enable-shareable-link: Włącz udostępnialny link
+        anyone-with-this-link-able-to-join-your-network: Każdy, kto ma ten link, będzie mógł dołączyć do twojej sieci
+      store-form:
+        storefront-name: Nazwa witryny sklepu
+        the-name-of-your-store: Nazwa twojego sklepu.
+        storefront-description-placeholder: Opis witryny sklepu
+        give-your-store-brief-description: Opisz krótko swój sklep, aby użytkownicy wiedzieli, co sprzedajesz.
+        add-tags-placeholder: Dodaj tagi
+      store-location-form:
+        street-2: Ulica 2
+        security-access-code: Kod dostępu bezpieczeństwa
+        postal-code: Kod pocztowy
+    widget:
+      customers:
+        widget-title: Ostatni klienci
+        phone: Telefon
+        email: Email
+      orders:
+        widget-title: Ostatnie zamówienia
+        id-column: ID zamówienia
+        accept-order: Akceptuj zamówienie
+        mark-as-ready: Oznacz jako gotowe!
+        mark-as-completed: Oznacz jako zakończone
+        more-details: Więcej szczegółów
+        customer: Klient
+        driver: Kierowca
+        subtotal: Suma częściowa
+        delivery-fee: Opłata za dostawę
+        delivery-tip: Napiwek za dostawę
+        tip: Napiwek
+        change-driver: Zmień kierowcę
+        assign-driver: Przypisz kierowcę
+        mark-as-ready-modal-pickup-title: Oznacz zamówienie jako gotowe do odbioru?
+        mark-as-ready-modal-pickup-body: Oznaczenie zamówienia jako gotowego powiadomi klienta, że jego zamówienie jest gotowe do odbioru!
+        mark-as-ready-modal-pickup-accept-button-text: Gotowe do odbioru!
+        mark-as-ready-modal-not-adhoc-title: Przypisz kierowcę i wyślij zamówienia
+        mark-as-ready-modal-not-adhoc-accept-button-text: Przypisz i wyślij!
+        mark-as-ready-modal-title: Czy na pewno chcesz oznaczyć zamówienie jako gotowe?
+        mark-as-ready-modal-body: Oznaczenie zamówienia jako gotowe spowoduje wysłanie zamówienia do pobliskich kierowców, oznacz zamówienie jako gotowe tylko wtedy, gdy może zostać odebrane.
+        mark-as-ready-modal-accept-button-text: Wyślij!
+        mark-as-completed-modal-title: Czy na pewno chcesz oznaczyć zamówienie jako zakończone?
+        mark-as-completed-modal-body: Oznaczenie zamówienia jako zakończone to potwierdzenie, że klient odebrał zamówienie i zamówienie zostało zakończone.
+        mark-as-completed-accept-button-text: Zamówienie zakończone!
+        assign-driver-modal-title: Przypisz kierowcę
+        assign-driver-modal-accept-button-text: Przypisz kierowcę
+      storefront-metrics:
+        last-day: Ostatnie 30 dni
+    file-record:
+      delete-this-file: Czy na pewno chcesz usunąć ten plik?
+      delete-this-file-you-will-unable-recover: Po usunięciu tego pliku nie będziesz mógł go odzyskać.
+    network-category-picker:
+      no-subcategory: Brak podkategorii dla
+      no-categories: Brak kategorii dla tej sieci
+      create-category: Utwórz nową kategorię
+    schedule-manager:
+      add-hours: Dodaj godziny
+      add-new-hours-for-day: Dodaj nowe godziny dla {day}
+      new-hours-added-for-day: Nowe godziny dodane dla {day}
+      you-wish-to-remove-these-hour: Czy na pewno chcesz usunąć te godziny?
+      by-removing-these-operation: Usuwając te godziny działania/dostępności, Twój sklep lub produkt może stać się nieaktywny lub niedostępny zgodnie z aktualizowanym harmonogramem...
+    store-selector:
+      no-stores: Brak sklepów do wyboru
+      create-storefront: Utwórz nową
+  home:
+    title: Panel Storefront
+  customers:
+    index:
+      internal-id: Wewnętrzne ID
+      create-at: Utworzono
+      update-at: Zaktualizowano
+      vendor-action: Działania dostawcy
+      view-customer-details: Zobacz szczegóły klienta
+      edit-customer: Edytuj klienta
+      success-message: Twoja nowa sieć sklepów została utworzona!
+      delete-customer: Usuń klienta
+  networks:
+    index:
+      network-option: Opcje sieci
+      manage-network: Zarządzaj siecią
+      send-invite: Wyślij zaproszenia
+      delete-network: Usuń sieć
+      create-new-network: Utwórz nową sieć
+      success-message: Twoja nowa sieć sklepów została utworzona!
+      delete-this-network-all-assigned-stores-customer-order: Czy na pewno chcesz usunąć tę sieć ({networkName})? Wszystkie przypisane sklepy, klienci, zamówienia nie będą już dostępne.
+      network:
+        manage-network: Zarządzaj siecią
+        settings: Ustawienia
+        customers: Klienci
+        orders: Zamówienia
+        Network-changes-not-save: Zmiany w sieci nie zostały zapisane!
+        going-back-will-rollback-all-unsaved-changes: Powrót spowoduje cofnięcie wszystkich niezapisanych zmian, czy na pewno chcesz kontynuować?
+        index:
+          change-network-saved: Zmiany w sieci zapisane.
+          create-new-payment-gateway: Utwórz nową bramkę płatności
+          save-gateway: Zapisz bramkę
+          new-gateway-add-network: Nowa bramka dodana do sieci
+          payment-gateway-changes-success: Zmiany w bramce płatności zapisane!
+          create-new-notification-channel: Utwórz nowy kanał powiadomień
+          create-notification-channel: Utwórz kanał powiadomień
+          notification-channel-add-network: Nowy kanał powiadomień dodany do sieci!
+          notification-channel-changes-save: Zmiany w kanałach powiadomień zapisane!
+          general-network-settings-title: Ogólne ustawienia sieci
+          general-network-settings-subtitle: Podaj ogólne ustawienia dlaswojej sieci lub rynku.
+          general-network-settings-form:
+            save-changes-button-text: Zapisz zmiany
+            name: Nazwa
+            name-placeholder: Nazwa witryny sklepu
+            name-help-text: Nazwa twojej sieci lub rynku.
+            description: Opis
+            description-placeholder: Opis witryny sklepu
+            description-help-text: Opisz krótko swój sklep, aby użytkownicy wiedzieli, czym jest Twoja sieć.
+            currency: Waluta
+            contact-social-panel:
+              panel-title: Kontakt i media społecznościowe
+              phone: Telefon
+              email: Email
+              email-help-text: Twój adres e-mail biznesowy.
+              website: Strona internetowa
+              website-help-text: Adres URL twojej strony biznesowej.
+              facebook: Facebook
+              facebook-help-text: ID twojej strony biznesowej na Facebooku.
+              instagram: Instagram
+              instagram-help-text: Nazwa użytkownika twojego biznesu na Instagramie.
+              twitter: Twitter
+              twitter-help-text: Nazwa użytkownika twojego biznesu na Twitterze.
+            logo-backdrop-panel:
+              panel-title: Logo i tło
+              logo-label: Logo
+              logo-help-text: Logo dla twojego sklepu.
+              upload-logo-button-text: Wgraj nowe logo
+              backdrop-label: Tło
+              backdrop-help-text: Opcjonalny baner lub obraz tła dla twojego sklepu.
+              upload-backdrop-button-text: Wgraj nowe tło
+            alert-panel:
+              panel-title: Alerty
+              panel-description: Konfiguruj, kto powinien być ostrzegany o określonych wydarzeniach
+              new-order-alert-label: Alert o nowym zamówieniu
+              new-order-alert-placeholder: Wybierz użytkowników do powiadamiania o nowym zamówieniu
+            config-switches:
+              online: Online
+              enable-tax: Włącz podatek
+              tax-percentage-input-label: Procent podatku
+              tax-percentage-input-help-text: Procent podatku od sprzedaży, który ma być stosowany do zamówień.
+              auto-accept-incoming-orders: Automatycznie akceptuj przychodzące zamówienia
+              auto-dispatch-orders: Automatycznie wysyłaj zamówienia
+              require-proof-of-delivery: Wymagaj potwierdzenia dostawy
+              proof-of-delivery-method-label: Metoda potwierdzenia dostawy
+              enable-cash-on-delivery: Włącz płatność przy odbiorze
+              enable-order-pickup: Włącz odbiór zamówień
+              enable-tips: Włącz napiwki
+              enable-delivery-tips: Włącz napiwki za dostawę
+              enable-multi-cart-checkout: Włącz wielokoszykowe zamawianie
+              enable-user-reviews: Włącz recenzje użytkowników
+          api-panel:
+            panel-title: API
+            panel-header: Ustawienia API
+            panel-description: Klucz dostępu do API Storefront i integracji
+            network-key-label: Klucz sieci
+            network-key-help-text: To jest twój klucz sieci, użyj go, aby umożliwić aplikacjom i integracjom korzystanie z twojej sieci.
+          payment-gateways-panel:
+            panel-title: Ustawienia bramki
+            panel-description: Dodaj lub zarządzaj ustawieniami bramek płatności tutaj.
+            new-gateway-button-text: Utwórz nową bramkę
+            gateway-form:
+              name: Nazwa bramki
+              name-help-text: Nadaj nazwę bramce płatności, będzie to istotne tylko wewnętrznie
+              code: Kod bramki
+              code-help-text: Kod identyfikatora używany do identyfikacji bramki w SDK
+              callback-url: URL zwrotny
+              callback-url-help-text: URL zwrotny, jeśli dotyczy
+              return-url: URL powrotu
+              return-url-help-text: URL powrotu, jeśli dotyczy
+              sandbox-toggle-label: To jest bramka testowa
+              config-header-label: Konfiguracja
+              delete-gateway-button-text: Usuń bramkę płatności
+          notification-channels-panel:
+            panel-title: Kanały powiadomień
+            panel-header: Ustawienia powiadomień
+            panel-description: Skonfiguruj kanały powiadomień dla twojej witryny sklepu, każdy kanał powiadomień może mieć również własne zasady i opcje.
+            new-channel-button-text: Utwórz nowy kanał
+        stores:
+          store: Sklepy
+          add-stores-button-text: Dodaj sklepy
+          invite-stores-button-text: Zaproszenie sklepów
+          created-at: Utworzono
+          view-store-details: Zobacz szczegóły sklepu
+          edit-store: Edytuj sklep
+          assign-category: Przypisz kategorię
+          remove-store-from-network: Usuń sklep z sieci
+          delete-network-category: Usuń kategorię sieci?
+          deleting-category-move-all-stores-inside-on-top-level: Usunięcie tej kategorii przeniesie wszystkie sklepy wewnątrz na najwyższy poziom, czy na pewno chcesz usunąć tę kategorię?
+          add-store-to-category: Dodaj sklep do kategorii
+          save-change: Zapisz zmiany
+          add-new-network-category: Dodaj nową kategorię sieci
+          create-new-category: Utwórz nową kategorię
+          new-category-created: Utworzono nową kategorię.
+          network-category-create: Utworzono nową kategorię sieci.
+          edit-category: Edytuj kategorię ({categoryName})
+          add-stores-to-network: Dodaj sklepy do sieci
+          network-stores-update: Zaktualizowano sklepy w sieci.
+          remove-this-store: Usuń ten sklep ({storeName}) z tej sieci ({networkName})?
+          done: Gotowe
+          longer-findable-by-this-network: Czy na pewno chcesz usunąć ten sklep z tej sieci? Nie będzie już dostępny w tej sieci.
+          viewing-storefront: Przeglądanie witryny sklepu {storeName}
+          editing-storefront: Edycja witryny sklepu {storeName}
+          send-invitations: Wyślij zaproszenia
+          invitation-sent-recipients: Zaproszenia wysłane do odbiorców!
+          invalid-emails-provided-error: Podano nieprawidłowe adresy e-mail!
+  orders:
+    index:
+     internal-id: Wewnętrzne ID
+     customer: Klient
+     select-order-customer: Wybierz klienta zamówienia
+     select-order-pickup-location: Wybierz lokalizację odbioru zamówienia
+     select-order-dropoff-location: Wybierz lokalizację dostawy zamówienia
+     scheduled-at: Zaplanowano na
+     transaction-total: Łączna transakcja
+     tracking-number: Numer śledzenia
+     driver-assigned: Przypisany kierowca
+     select-driver-for-order: Wybierz kierowcę dla zamówienia
+     created-at: Utworzono
+     updated-at: Zaktualizowano
+     created-by: Utworzone przez
+     updated-by: Zaktualizowane przez
+     select-user: Wybierz użytkownika
+     view-order: Zobacz zamówienie
+     cancel-order: Anuluj zamówienie
+     delete-order: Usuń zamówienie
+  products:
+    index:
+      manage-addons: Zarządzaj dodatkami
+      done: Gotowe
+      create-new-product-category: Utwórz nową kategorię produktów
+      product-category-created-success: Utworzono nową kategorię produktów.
+      import-products-via-spreadsheets: Importuj produkty za pomocą arkuszy kalkulacyjnych
+      start-upload: Rozpocznij przesyłanie
+      warning-no-file-upload: Brak plików w kolejce do przesyłania!
+      products-success-message: Pomyślnie zaimportowano {resultsLength} produktów...
+      delete-product: Czy na pewno chcesz usunąć ten produkt?
+      body-warning: Uwaga! Po usunięciu tego produktu nie będzie już dostępny.
+      aside-scroller:
+        title: Kategorie produktów
+        custom-top-item-text: Wszystkie produkty
+      import-products-success-message: Pomyślnie zaimportowano {resultsLength} produktów...
+      edit:
+        title: Produkt nie został zapisany!
+        body: Stracisz wszystkie niezapisane zmiany, czy na pewno chcesz anulować?
+        changes-saved: Zapisano zmiany!
+      new:
+        new-product-created-success: Pomyślnie utworzono nowy produkt!
+        warning-only-select-an-image-file-to-be-primary: Możesz wybrać tylko plik obrazu jako główny!
+        made-the-primary-success-image: >-
+          {fileName} został ustawiony jako główny obraz.
+        title: Produkt nie został zapisany!
+        body: Powrót spowoduje anulowanie tworzenia tego produktu, jeśli kontynuujesz, wszystkie pola wejściowe zostaną wyczyszczone!
+        select-addon-categories: Wybierz kategorie dodatków
+        add-new-product-variant: Dodaj nowy wariant produktu
+        edit-product-variant: Edytuj wariant produktu
+        untitled-field: Pole bez tytułu
+      category:
+        category: kategoria
+        title: Produkt nie został zapisany!
+        body: Uwaga! Usunięcie tej kategorii spowoduje również usunięcie wszystkich produktów wymienionych pod tą kategorią.
+        edit-category: Edytuj kategorię
+        save-changes: Zapisz zmiany
+        category-changes-saved-success: Zapisano zmiany w kategorii.
+        delete-product: Czy na pewno chcesz usunąć ten produkt?
+        body-warning: Uwaga! Po usunięciu tego produktu nie będzie już dostępny.
+  settings:
+    api:
+      api-settings: Ustawienia API
+      access-key-for-storefront-api-integrations: Klucz dostępu do API i integracji Storefront.
+      store-key: Klucz sklepu
+      store-key-help-text: To jest twój klucz sklepu, użyj go, aby umożliwić aplikacjom i integracjom korzystanie z twojej witryny sklepu.
+    gateways:
+      geteway-settings: Ustawienia bramki
+      add-or-manage-your-paymeny-gateway-settings-here: Dodaj lub zarządzaj ustawieniami bramek płatności tutaj.
+      create-new-gateway: Utwórz nową bramkę
+      gateway-name: Nazwa bramki
+      gateway-help-text: Nadaj nazwę bramce płatności, będzie to istotne tylko wewnętrznie
+      gateway-code: Kod bramki
+      gateway-code-help-text: Kod identyfikatora używany do identyfikacji bramki w SDK
+      callback-url: URL zwrotny
+      callback-url-help-text: URL zwrotny, jeśli dotyczy
+      return-url: URL powrotu
+      return-url-help-text: URL powrotu, jeśli dotyczy
+      this-is-a-sandbox-gateway: To jest bramka testowa
+      delete-payment-gateway: Usuń bramkę płatności
+      create-new-payment-gateway: Utwórz nową bramkę płatności
+      save-gateway: Zapisz bramkę
+      edit-payment-gateway: Edytuj bramkę płatności
+      save-changes: Zapisz zmiany
+      title-remove: Czy na pewno chcesz usunąć tę bramkę?
+      application-website-utilizing-gateway: Wszystkie aplikacje i strony internetowe korzystające z tej bramki w konfiguracji mogą zostać zakłócone, jeśli bramka nie zostanie zastąpiona wcześniej
+    index:
+      general-settings-header: Ogólne ustawienia
+      general-settings-message: Podaj ogólne ustawienia dla twojego sklepu.
+      name-placeholder: Nazwa witryny sklepu
+      name-help-text: Nazwa twojego sklepu.
+      description-placeholder: Opis witryny sklepu
+      description-help-text: Opisz krótko swój sklep, aby użytkownicy wiedzieli, co sprzedajesz.
+      tags-placeholder: Dodaj tagi
+      contact-social: Kontakt i media społecznościowe
+      website-help-text: Adres URL twojej strony internetowej.
+      facebook-placeholder: ID na Facebooku
+      facebook-help-text: ID twojej strony biznesowej na Facebooku.
+      instagram-placeholder: Nazwa użytkownika na Instagramie
+      instagram-help-text: Nazwa użytkownika twojego biznesu na Instagramie.
+      twitter-placeholder: Nazwa użytkownika na Twitterze
+      twitter-help-text: Nazwa użytkownika twojego biznesu na Twitterze.
+      logo-backdrop: Logo i tło
+      logo-help-text: Logo dla twojego sklepu.
+      upload-new-logo: Wgraj nowe logo
+      backdrop-help-text: Opcjonalny baner lub obraz tła dla twojego sklepu.
+      upload-new-backdrop: Wgraj nowe tło
+      images-videos: Obrazy i filmy
+      drop-to-upload: Upuść, aby przesłać
+      ready-to-upload: gotowe do przesyłania.
+      upload-image-video: Wgraj obrazy i filmy
+      drag-and-drop-image: Przeciągnij i upuść pliki obrazów i filmów na tę strefę upuszczania
+      upload-queue: Kolejka przesyłania
+      alerted-for-certain-event: Konfiguruj, kto powinien być ostrzegany o określonych wydarzeniach.
+      new-order-alert: Alert o nowym zamówieniu
+      alert-placeholder: Wybierz użytkowników do powiadamiania o nowym zamówieniu
+      enable-tax: Włącz podatek
+      tax-percentage: Procent podatku
+      tax-percentage-help-text: Procent podatku od sprzedaży, który ma być stosowany do zamówień.
+      auto-accept-incoming-order: Automatycznie akceptuj przychodzące zamówienia
+      auto-dispatch-order: Automatycznie wysyłaj zamówienia
+      require-proof-of-delivery: Wymagaj potwierdzenia dostawy
+      proof-of-delivery-method: Metoda potwierdzenia dostawy
+      enable-cash-on-delivery: Włącz płatność przy odbiorze
+      enable-order-pickup: Włącz odbiór zamówień
+      enable-tip: Włącz napiwki
+      enable-integrated-vendors: Włącz zintegrowanych dostawców
+      save-changes: Zapisz zmiany
+    locations:
+      new-store-location: Nowa lokalizacja sklepu
+      add-new-location: Dodaj nową lokalizację
+      edit-store-location: Edytuj lokalizację sklepu
+      save-changes: Zapisz zmiany
+      remove-this-store-location: Czy na pewno chcesz usunąć tę lokalizację sklepu?
+      solely-accosciated-location: Wszystkie produkty, które są wyłącznie powiązane z tą lokalizacją, nie będą już dostępne.
+      new-store-hour: Dodaj nowe godziny otwarcia dla {day}
+      add-hours: Dodaj godziny
+      store-hour-added: Nowe godziny otwarcia dodane dla {day}
+      remove-these-hour: Czy na pewno chcesz usunąć te godziny?
+      update-schedule-location: Usunięcie tych godzin otwarcia spowoduje, że Twój sklep może stać się nieaktywny zgodnie z zaktualizowanym harmonogramem dla tej lokalizacji.
+      location-setting: Ustawienia lokalizacji
+      manage-store: Zarządzaj lokalizacjami i godzinami otwarcia swojego sklepu
+      text-location: Utwórz nową lokalizację
+      store-hour: Zarządzaj godzinami otwarcia sklepu
+    notification:
+      create-new-notification-channel: Utwórz nowy kanał powiadomień
+      create-notification-channel: Utwórz kanał powiadomień
+      edit-notification-channel: Edytuj kanał powiadomień
+      save-changes: Zapisz zmiany
+      new-notification-channel-added: Dodano nowy kanał powiadomień
+      remove-this-notification-channel: Czy na pewno chcesz usunąć ten kanał powiadomień?
+      application-websites-utillizing-channel: Wszystkie aplikacje i strony internetowe korzystające z tego kanału w konfiguracji mogą zostać zakłócone, jeśli kanał nie zostanie zastąpiony wcześniej
+      notification-settings: Ustawienia powiadomień
+      notification-storefront: Skonfiguruj kanały powiadomień dla swojej witryny sklepu, każdy kanał powiadomień może mieć również własne zasady i opcje.
+      new-channel: Nowy kanał
+  service:
+    storefront:
+      new-incoming-order: Masz nowe przychodzące zamówienie!
+      accept-order: Akceptuj zamówienie
+      decline-order: Odrzuć zamówienie
+      create-first-storefront: Utwórz swoją pierwszą witrynę sklepu
+      storefront-has-been-create-success: Twoja nowa witryna sklepu została utworzona!
+      create-new-storefront: Utwórz nową witrynę sklepu
+      storefront-create-success: Twoja nowa witryna sklepu została utworzona!
+  application:
+    launch-app: Uruchom aplikację
