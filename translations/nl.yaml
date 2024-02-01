@@ -488,7 +488,7 @@ storefront:
       this-is-a-sandbox-gateway: Dit is een sandbox gateway
       delete-payment-gateway: Betaalgateway verwijderen
       create-new-payment-gateway: Creëer een nieuwe betalingsgateway
- save-gateway: Gateway Opslaan
+      save-gateway: Gateway Opslaan
       edit-payment-gateway: Betaalgateway bewerken
       save-changes: Wijzigingen opslaan
       title-remove: Weet je zeker dat je deze gateway wilt verwijderen?
