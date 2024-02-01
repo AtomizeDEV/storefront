@@ -402,8 +402,8 @@ storefront:
           remove-this-store: Deze winkel ({storeName}) uit dit netwerk ({networkName}) verwijderen?
           done: Klaar
           longer-findable-by-this-network: Weet je zeker dat je deze winkel uit dit netwerk wilt verwijderen? Het zal niet langer vindbaar zijn door dit netwerk.
-          viewing-storefront: {storeName} winkelgevel bekijken
-          editing-storefront: {storeName} winkelgevel bewerken
+          viewing-storefront: Bekijk {storeName} winkelgevel
+          editing-storefront: Bewerk {storeName} winkelgevel
           send-invitations: Uitnodigingen versturen
           invitation-sent-recipients: Uitnodigingen verzonden naar ontvangers!
           invalid-emails-provided-error: Ongeldige e-mails verstrekt!
