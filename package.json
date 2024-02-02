@@ -58,7 +58,7 @@
         "ember-wormhole": "^0.6.0"
     },
     "devDependencies": {
-        "@fleetbase/intl-lint": "^0.0.1",
+        "@atomizedev/intl-lint": "git@github.com/AtomizeDEV/intl-lint.git",
         "@babel/eslint-parser": "^7.22.15",
         "@babel/plugin-proposal-decorators": "^7.23.2",
         "@ember/optional-features": "^2.0.0",
