@@ -1,6 +1,6 @@
 {
     "name": "@atomizedev/storefront-engine",
-    "version": "0.2.8",
+    "version": "0.2.11",
     "description": "Headless Commerce & Marketplace Extension for Fleetbase",
     "fleetbase": {
         "route": "storefront",
@@ -16,9 +16,9 @@
         "ember-engine",
         "ember-addon"
     ],
-    "repository": "https://github.com/atomizedev/storefront",
+    "repository": "https://github.com/fleetbase/storefront",
     "license": "MIT",
-    "author": "Fleetbase Pte Ltd <hello@fastlane.ee>",
+    "author": "Fleetbase Pte Ltd <hello@atomizedev.io>",
     "directories": {
         "app": "app",
         "addon": "addon",
@@ -43,7 +43,6 @@
         "publish:github": "npm config set '@atomizedev:registry' https://npm.pkg.github.com/ && npm publish"
     },
     "dependencies": {
-
         "@atomizedev/ember-core": "git@github.com/AtomizeDEV/ember-core.git", 
         "@atomizedev/ember-ui": "git@github.com/AtomizeDEV/ember-ui.git", 
         "@atomizedev/fleetops-data": "git@github.com/AtomizeDEV/fleetops-data.git", 

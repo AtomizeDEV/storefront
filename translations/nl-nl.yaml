@@ -212,6 +212,8 @@ storefront:
         security-access-code: Beveiligingstoegangscode
         postal-code: Postcode
     widget:
+      key-metrics:
+        title: Storefront Metrics
       customers:
         widget-title: Recente Klanten
         phone: Telefoon
