@@ -52,7 +52,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Fleetbase\\Storefront\\": "server/src/"
+            "Fleetbase\\Storefront\\": "server/src/",
+            "Fleetbase\\Storefront\\Seeders\\": "server/seeders/"
         }
     },
     "autoload-dev": {
