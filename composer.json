@@ -13,7 +13,7 @@
     "authors": [
         {
             "name": "Fleetbase Pte Ltd.",
-            "email": "hello@atomizedev.io"
+            "email": "hello@fleetbase.io"
         },
         {
             "name": "Ronald A. Richardson",
@@ -41,6 +41,7 @@
         "milon/barcode": "^10.0",
         "php-http/guzzle7-adapter": "^1.0",
         "psr/http-factory-implementation": "*",
+        "stripe/stripe-php": "13.13.0",
         "toin0u/geocoder-laravel": "^4.4"
     },
     "require-dev": {
@@ -52,7 +53,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Fleetbase\\Storefront\\": "server/src/"
+            "Fleetbase\\Storefront\\": "server/src/",
+            "Fleetbase\\Storefront\\Seeders\\": "server/seeders/"
         }
     },
     "autoload-dev": {
