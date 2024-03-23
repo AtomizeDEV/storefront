@@ -3,7 +3,7 @@ s<Modal::Default @onOpen={{fn this.fetchCategories @options.store}} @modalIsOpen
         <div class="flex items-center justify-between mb-4">
             <div>
                 {{#if this.isLoading}}
-                    <Spinner class="text-sky-400" />
+                    <Spinner class="text-magicpurple-400" />
                 {{/if}}
             </div>
             <div>
@@ -48,7 +48,7 @@ s<Modal::Default @onOpen={{fn this.fetchCategories @options.store}} @modalIsOpen
                         {{#each category.addons as |addon i|}}
                             <div class="grid grid-cols-10 gap-1 px-3 py-2 rounded-md dark:bg-gray-900 bg-gray-200">
                                 <div class="col-span-3 flex items-center">
-                                    <FaIcon @icon="tag" class="text-sky-400 mr-2" />
+                                    <FaIcon @icon="tag" class="text-magicpurple-400 mr-2" />
                                     <Input
                                         @type="text"
                                         @value={{addon.name}}
